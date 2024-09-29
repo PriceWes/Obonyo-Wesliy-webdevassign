@@ -1,0 +1,211 @@
+/*WESLIY OBONYO CIT-223-053/2022*/
+body{
+    font-family: Arial, sans-serif;
+    background-color:aqua;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    /*text-align: right;*/
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+main{
+    padding: 20px;
+}
+
+button{
+    background-color: rgb(3, 25, 51);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#footer{
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+}
+
+/*INDEX.HTML*/
+.home-flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.home-txt{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.home-flex .home-img img{
+    width: 420px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.home-flex .home-img{
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+/*SERVICES.HTML*/
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 10px;
+}
+
+.services .serv{
+    width: 360px;
+    height: 240px;
+    text-align: center;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
+    border: 3px solid #250101;
+    border-radius: 10px;
+}
+
+.services .serv:hover{
+    box-shadow: 20px 20px 20px rgba(102, 96, 96);
+}
+
+.serv:nth-child(1) {
+    background-image: url("photos/graphic.jpg");
+    background-repeat: no-repeat;
+    background-size: 360px;
+}
+
+.serv:nth-child(2) {
+    background-image: url("photos/article.jpg");
+    background-repeat: no-repeat;
+    background-size: 360px;
+}
+
+.serv:nth-child(3) {
+    background-image: url("photos/voice.jpg");
+    background-repeat: no-repeat;
+    background-size: 360px;
+}
+
+select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+option{
+    padding: 5px 6px;
+}
+
+/*ENQUIRE.HTML*/
+.enquiry{
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+.H2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+#name, #email, #project{
+    width: 70%;
+}
+
+#btm{
+    text-align: center;
+}
+
+/*APPLY.HTML*/
+.app{
+    margin-left: 20px;
+}
+ 
+#userForm{
+    border: 1px solid #ddd;
+    width: 50%;
+}
+
+#userForm,
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 40%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+}
+
+#fullName, #emailadd, #comments{
+    width: 70%;
+}
+
+/*ABOUT*/
+.team ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .team li{
+    width: 33%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #contact{
+    margin-left: 40px;
+    margin-bottom: 0px;
+  }
